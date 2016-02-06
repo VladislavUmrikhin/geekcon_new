@@ -10,7 +10,6 @@
 /** @var string $templateFolder */
 /** @var string $componentPath */
 /** @var CBitrixComponent $component */
-$this->setFrameMode(true);
 ?>
 <?$LINE_ELEMENT_COUNT=2;?>
 

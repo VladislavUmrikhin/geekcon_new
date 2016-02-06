@@ -1,53 +1,59 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 $aMenuLinks = Array(
-	Array(
-		"Как купить", 
-		"about/howto/", 
+    Array(
+		"Новости", 
+		"news/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
-	Array(
-		"Доставка", 
-		"about/delivery/", 
+
+    Array(
+		"Покупка билета", 
+		"ticket/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
-	Array(
-		"О магазине", 
-		"about/", 
-		Array(), 
-		Array(), 
-		"" 
-	),	
-	Array(
-		"Гарантия", 
-		"about/guaranty/", 
+
+    Array(
+		"О GeekCon", 
+		"/about", 
 		Array(), 
 		Array(), 
 		"" 
 	),
-	Array(
-		"Контакты",
-		"about/contacts/",
-		Array(),
-		Array(),
-		""
-	),
-	Array(
-		"Есть идея?", 
-		"about/idea/", 
+
+    Array(
+		"Поддержка", 
+		"/feedback", 
 		Array(), 
 		Array(), 
-		"IsModuleInstalled('idea') && COption::GetOptionString('eshop', 'useIdea', 'Y','".SITE_ID."') == 'Y'" 
+		"" 
 	),
-	Array(
-		"Мой кабинет",
-		"personal/",
-		Array(),
-		Array(),
-		"CUser::IsAuthorized()"
+
+    Array(
+		"Магазин", 
+		"/catalog", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+
+    Array(
+		"Турниры", 
+		"/sport", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+
+    Array(
+		"Косплей", 
+		"/cosplay", 
+		Array(), 
+		Array(), 
+		"" 
 	),
 );
 ?>
